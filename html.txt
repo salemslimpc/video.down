@@ -1,35 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="تحميل فيديوهات وصور وصوت من جميع منصات التواصل الاجتماعي بسهولة.">
-    <title>تحميل من جميع المنصات</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>📥 تحميل من جميع المنصات</h1>
-        <p>قم بلصق رابط الفيديو أو الصورة أو الصوت لتحميله بسهولة</p>
-    </header>
-
-    <!-- مكان إعلان جوجل -->
-    <div class="ads">
-        <p>هنا سيكون إعلان جوجل أدسنس</p>
-    </div>
-
-    <main>
-        <form id="downloadForm">
-            <input type="url" id="url" placeholder="ألصق رابط المحتوى هنا" required>
-            <button type="submit">تحميل الآن</button>
-        </form>
-        <div id="result"></div>
-    </main>
-
-    <footer>
-        <p>© 2025 - جميع الحقوق محفوظة</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
